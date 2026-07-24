@@ -16,7 +16,7 @@
 // unused entries and guarantees a clean slate. Good habit, not a strict
 // requirement.
 
-const CACHE_VERSION = 'maptap-v1';
+const CACHE_VERSION = 'maptap-v2';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting(); // activate this new worker immediately, don't wait for old tabs to close
